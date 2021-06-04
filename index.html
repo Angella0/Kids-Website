@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kids world</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <nav class="navbar">
@@ -30,7 +33,7 @@
                     <a href="#shop" class="navbar__links" id="shop-page">Shop</a>
                 </li>
                 <li class="navbar__item">
-                    <a href="#contact" class="navbar__links" id="contact-page">Services</a>
+                    <a href="#services" class="navbar__links" id="contact-page">Services</a>
                 </li>
                 <li class="navbar__btn">
                     <a href="#sign-up" class="button" id="signup">Sign Up</a>
@@ -49,7 +52,7 @@
     <div class="babystore" id="about">
         <div class="babystore__container">
             <div class="babystore__image--container">
-                <div class="babystore__image--card"></div>
+                <div class="babystore__image--card"><i class="fas fa-layer-group"></i></div>
             </div>
             <div class="babystore__content">
                 <h1>What do we do?</h1>
@@ -67,25 +70,25 @@
                     <h1>Bear leader girls dress and skirt</h1>
                     <p class="price">35000UG Shs</p>
                     
-                    <p><button>Add To Cart</button></p>
+                    <p><button>Add To Cart<i class="fa fa-shopping-cart"></i></button></p>
                 </div>
             </div>
             <div class="column">
                <div class="card">
-                <img src="images/carter.jpg" height="240" width="250" > 
+                <img src="images/carter.jpg" height="249" width="250" > 
                     <h1>Hawke jogger pants</h1>
                     <p class="price">35000UG Shs</p>
                     <p>This out fit makes the kid feel warm. </p>
-                    <p><button>Add To Cart</button></p>
+                    <p><button onclick="demo">Add To Cart <i class="fa fa-shopping-cart"></i></button></p>
                 </div>
             </div>
          <div class="column">
             <div class="card">
-                <img src="images/pro.jpg" height="280" width="250"> 
+                <img src="images/pro.jpg" height="270" width="250"> 
                     <h1>Hand made heirlooms</h1>
                     <p class="price">35000UG Shs</p>
                     
-                    <p><button>Add To Cart</button></p>
+                    <p><button>Add To Cart  <i class="fa fa-shopping-cart"></i></button></p>
                 </div>   
         </div>
         </div>
@@ -97,16 +100,16 @@
                         <h1>Bear leader girls short and dress</h1>
                         <p class="price">35000UG Shs</p>
                         
-                        <p><button>Add To Cart</button></p>
+                        <p><button>Add To Cart  <i class="fa fa-shopping-cart"></i></button></p>
                     </div>   
             </div>
             <div class="column">
                 <div class="card">
-                    <img src="images/baby dress.jpg" height="270"> 
+                    <img src="images/baby dress.jpg" height="238"> 
                         <h1>organic baby clothes</h1>
                         <p class="price">35000UG Shs</p>
                         
-                        <p><button>Add To Cart</button></p>
+                        <p><button>Add To Cart  <i class="fa fa-shopping-cart"></i></button></p>
                     </div>   
             </div>
             <div class="column">
@@ -114,13 +117,13 @@
                     <img src="images/litos.jpg"> 
                         <h1>Hand made heirlooms</h1>
                         <p class="price">35000UG Shs</p>
-                        <p><button>Add To Cart</button></p>
+                        <p><button>Add To Cart  <i class="fa fa-shopping-cart"></i></button></p>
                     </div>   
-                
             </div>
         </div>
     </div>
-    <div class="services" id="Services">
+
+    <div class="services" id="services">
         <h1>Our Services</h1>
          <div class="services__wrapper">
              <div class="services__card">
@@ -131,12 +134,16 @@
                  </p>
                  <div class="services__btn"><button>Get Started</button></div>
              </div>
+
+
              <div class="services__card">
                 <h2 class="picture">Happy home
                 <img src="images/happy kid.jpg" height="300" width="200"></h2>
                 <p>happy kids</p>
                 <div class="services__btn"><button>Get Started</button></div>
             </div>
+
+
             <div class="services__card">
                 <h2>Are you ready?</h2>
                 <p class="picture">
@@ -144,6 +151,8 @@
                     You say we make it happen!</p>
                 <div class="services__btn"><button>Get Started</button></div>
             </div>
+
+
             <div class="services__card">
                 <h2 class="picture">
                     Infinite choices
@@ -153,9 +162,54 @@
                 <div class="services__btn"><button>Get Started</button></div>
             </div>
          </div>
-    </div>
- 
+  </div>
+  
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+     <a href="https://www.linkedin.com/in/angella-nambooze-a15b4b210/"class="fa fa-linkedin"></a>
+     <a href= "https://www.instagram.com/namboozeangella78/" class="fa fa-instagram"></a>
+     <a href="https://twitter.com/NamboozeAngell4" class="fa fa-twitter"></a>
+     <a href="https://www.pinterest.com/angellanambooze/_saved/" class="fa fa-pinterest"></a>
+     <a href="https://github.com/" class="fa fa-github"></a> -->
 
+
+<div class="babystore" id="sign-up">
+    <div class="babystore__container">
+        <div class="babystore__content">
+            <h1>Join Our Team</h1>
+            <h2>Sign Up Today</h2>
+            <p>See what makes us different.</p>
+            <button class="babystore__btn"><a href="#">Sign Up</a></button>    
+        </div>
+        <div class="babystore__image--container">
+            <div class="babystore__image--card"><i class="fas fa-users"></i></div>
+        </div>
+        </div>
+        <div class="footer__container">
+            <div class="footer__links">
+                <div class="footer__links--wrapper">
+                    <div class="footer__link--items">
+                        <h2>About Us</h2>
+                        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+                        <a href="https://www.linkedin.com/in/angella-nambooze-a15b4b210/"class="fa fa-linkedin"></a>
+                        <a href= "https://www.instagram.com/namboozeangella78/" class="fa fa-instagram"></a>
+                        <a href="https://twitter.com/NamboozeAngell4" class="fa fa-twitter"></a>
+                        <a href="https://www.pinterest.com/angellanambooze/_saved/" class="fa fa-pinterest"></a>
+                        <a href="https://github.com/" class="fa fa-github"></a><br>
+                   
+                        <a href="/signup">How it works</a>
+                        <a href= "/signup"> Testimonials</a>
+                        <a href="/signup"> Career</a>
+                        <a href= "/signup">Terms of service</a>
+                    
+                   
+                   
+                    </div>
+                </div>
+
+            </div>
+        </div>
     
+     <script src="java.js"></script>
 </body>
+
 </html>

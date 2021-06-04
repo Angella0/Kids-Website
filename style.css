@@ -43,6 +43,7 @@
     cursor: pointer;
     text-decoration: none;
     font-size: 2rem;
+    font-family: 'Amatic SC', cursive;  
 }
 .navbar__menu{
     display: flex;
@@ -103,8 +104,10 @@ background: linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b);
 }
 
 .hero{
-    background-image: url(images/dress.jpg);
+    background-image: url(images/boy\ and\ girl.jpg);
     /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* background-position:center ; */
     /* background: linear-gradient(to right, #eee, plum); */
     padding: 200px 0;
 
@@ -149,10 +152,10 @@ padding: 10rem 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     margin: 0 auto;
     height: 90%;
-    z-index: 1;
+    /* z-index: 1; */
     width: 100%;
     max-width: 1300px;
     padding: 0 50px;
@@ -172,16 +175,19 @@ padding: 10rem 0;
     /* -moz-background-clip: text; */
    -webkit-text-fill-color:transparent;
    -moz-text-fill-color:transparent;
+   
 }
 .babystore__content h2{
     font-size: 4rem;
-    color:#000000;   
+    color:#000000;
+    font-family: 'Amatic SC', cursive;   
 
 }
 .babystore__content p{
     margin-top: 2rem;
     font-size: 2rem;
     font-weight: 700;
+    font-family: 'Amatic SC', cursive;  
 }
 .babystore__btn{
     font-size: 1.8rem;
@@ -230,7 +236,7 @@ padding: 10rem 0;
     width: 500px;
     border-radius: 4px;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     justify-content: center;
     color: #131313;
     background-image:url(images/lol.jpg);
@@ -260,6 +266,7 @@ padding: 10rem 0;
     margin: auto;
     text-align: center;
     font-family: arial;
+    
   }
   .price {
     color: grey;
@@ -302,12 +309,14 @@ padding: 10rem 0;
    -moz-text-fill-color:transparent;
     margin-bottom: 5rem;
     font-size: 2.5rem;
+    font-family: 'Amatic SC', cursive;
   }
  
 .services__wrapper{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
+    font-family: 'Amatic SC', cursive;
 }
 .services__card{
     margin: 10px;
@@ -321,9 +330,11 @@ padding: 10rem 0;
     background-image: linear-gradient(to right, #00dbde 0%, #fc00fc 100%);
     transition: 0.3s ease-in;
     text-align: center;
+    
 }
 .picture{
     text-align: center;
+    
 }
  /* .services__card:nth-child(3){
     background: #d9a7c7;  /* fallback for old browsers */
@@ -339,6 +350,7 @@ padding: 10rem 0;
     border-radius: 4px;
     background: #131313;
     font-size: 1rem;
+    font-family: 'Amatic SC', cursive;
 }
 .services__card button:hover{
     cursor: pointer;
@@ -347,4 +359,9 @@ padding: 10rem 0;
     transform: scale(1.075);
     transition: 0.3s ease-in;
     cursor: pointer;
+}
+.fa{
+    color:aqua;
+    padding: 13px;
+    text-decoration: none;
 }

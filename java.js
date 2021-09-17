@@ -8,3 +8,19 @@
       cart.classList.toggle('show-cart')  
     })
 })();
+
+(function(){
+const cartBtn = document.querySelectorAll('.store-item.icon')
+cartBtn.forEach(function(btn){
+  btn.addEventListener('click', function(event){
+    console.log(event.target);
+
+
+
+  });
+})
+
+
+
+
+})();
